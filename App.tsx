@@ -9,7 +9,7 @@ import {
   Poppins_700Bold
 } from '@expo-google-fonts/poppins';
 
-import { Dashboard } from './src/components/screens/Dashboard';
+import { Dashboard } from './src/screens/Dashboard';
 import theme from './src/global/styles/theme';
 
 
