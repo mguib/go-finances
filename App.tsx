@@ -12,6 +12,7 @@ import {
 import { Dashboard } from './src/screens/Dashboard';
 import theme from './src/global/styles/theme';
 import { Register } from './src/screens/Register';
+import { CategorySelect } from './src/screens/CategorySelect';
 
 
 export default function App() {
@@ -28,7 +29,8 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       {/* <Dashboard /> */}
-      <Register/>
+      {/* <Register/> */}
+      <CategorySelect/>
     </ThemeProvider>
     
   );
