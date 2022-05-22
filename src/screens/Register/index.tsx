@@ -150,7 +150,6 @@ export function Register() {
                     />
                 </Modal>
 
-
             </Container>
         </TouchableWithoutFeedback>
     )
