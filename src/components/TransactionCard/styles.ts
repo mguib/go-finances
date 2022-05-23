@@ -10,7 +10,7 @@ export const Container = styled.View`
     background-color: ${({theme}) => theme.colors.shape};
     border-radius: 5px;
 
-    padding: 17px 24px;
+    padding: 16px 18px;
     margin-bottom: 16px;
 `;
 
@@ -50,11 +50,11 @@ export const CategoryName = styled.Text`
     color: ${({theme}) => theme.colors.text};
     font-family: ${({theme}) => theme.fonts.regular};
 
-    margin-left: 17px;
+    margin-left: 10px;
 `;
 
 export const Date = styled.Text`
-    font-size: ${RFValue(14)}px;
+    font-size: ${RFValue(12)}px;
     color: ${({theme}) => theme.colors.text};
     font-family: ${({theme}) => theme.fonts.regular};
 `;
