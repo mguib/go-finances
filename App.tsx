@@ -23,7 +23,7 @@ import { AppRoutes } from './src/routes/app.routes';
 
 
 
-export default function App() {
+export function App() {
   const [fontsLoaded] = useFonts({
     Poppins_400Regular,
     Poppins_500Medium,
